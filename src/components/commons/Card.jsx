@@ -8,7 +8,7 @@ const Card = ({ data }) => {
         <Link to={`/work/${data.slug}`}>
           <div className="relative mx-4 mt-4 overflow-hidden rounded-md bg-blue-gray-500 bg-clip-border text-white shadow-blue-gray-500/40">
             <img
-              className="w-full h-[200px] object-cover"
+              className="w-full h-[200px] object-contain"
               src={data.thumbnail}
               alt="ui/ux review check"
             />
@@ -47,7 +47,7 @@ const Card = ({ data }) => {
               <Link to={`/work/${data.slug}`}>{data.title}</Link>
             </h5>
           </div>
-          <div className="flex dark:text-white  items-center flex-wrap gap-2">
+          <div className="flex dark:text-white  items-center flex-wrap gap-2 min-h-[40px]">
             {data?.category?.map((item, index) => (
               <span key={index} className="flex items-center gap-1">
                 <img className="w-4 h-4" src={icons[item]} alt="" />

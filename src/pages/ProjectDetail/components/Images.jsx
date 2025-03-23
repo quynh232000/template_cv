@@ -16,7 +16,7 @@ const Images = ({ data }) => {
           <div key={index} className="px-5 h-full ">
             <img
               alt="..."
-              className="max-w-full w-full h-[500px]  object-cover  rounded-lg shadow-lg"
+              className="max-w-full w-full h-[500px]  object-contain   rounded-lg shadow-lg"
               src={item}
             />
           </div>

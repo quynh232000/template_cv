@@ -1,5 +1,5 @@
 import Footer from "../../components/footer";
-import { About, Education, Quotes, Review, Testimonial, Work } from "./components";
+import { About, Education, Testimonial, Work } from "./components";
 import { Element } from "react-scroll";
 const HomePage = () => {
   return (

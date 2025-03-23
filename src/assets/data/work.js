@@ -39,6 +39,12 @@ import  course3 from "../images/course3.png"
 import  course4 from "../images/course4.png"
 import  course5 from "../images/course5.png"
 
+import  e1 from "../images/e1.png"
+import  e2 from "../images/e2.png"
+import  e3 from "../images/e3.png"
+import  e4 from "../images/e4.png"
+import  e6 from "../images/e6.png"
+
 
 
 
@@ -46,6 +52,29 @@ import  course5 from "../images/course5.png"
 
 export const DataWorks =
     [
+        {
+            "id": "1001",
+            "title": "Quin - Ecommerce (ReactJs - Laravel)",
+            "slug": "quin-ecommerce",
+            "description": "Quin ecommerce: Sell and Shopping online in Quin Ecommerce.",
+            "isHome": true,
+            "featured": [
+                "User: Find product and buy",
+                "Shop: Add , manage product in shop.",
+                "Admin: CRUD course, category, user, setting, banners,..."
+            ],
+            "category": ["ReactJS", "TypeScript", "TailwindCSS","Laravel"],
+            "thumbnail": e1,
+            "images": [
+                e1,
+                e2,
+                e3,
+                e4,
+                e6
+            ],
+            "demo": "https://ecommerce.mr-quynh.com",
+            "source": "https://gitlab.com/quynh232000/quin_ecommerce",
+        },
         {
             "id": "1000",
             "title": "Quin - Course",

@@ -64,7 +64,7 @@ const Testimonial = () => {
               <figure className="rounded-2xl bg-white dark:bg-[#1e2329] dark:text-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 {item.type == "image" ? (
                   <img
-                    className="h-[315px] w-full object-cover"
+                    className="h-[315px] w-full object-contain"
                     src={item.link}
                     alt=""
                   />

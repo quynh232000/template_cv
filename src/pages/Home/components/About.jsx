@@ -1,5 +1,4 @@
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import user from "../../../assets/images/user.png";
 
 const About = () => {
